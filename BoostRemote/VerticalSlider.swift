@@ -104,7 +104,23 @@ class VerticalSlider: UIView {
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        reset()
+        guard let touch = touches.first else { return }
+        let location = touch.location(in: self)
+        
+        let size = thumbView.bounds.height
+        let base = (bounds.height - size) / 2
+        
+        var value = (location.y - bounds.midY) / base
+        if value < -1 {
+            value = -1
+        } else if value > 1 {
+            value = 1
+        }
+        
+        if (value < 0.15 && value > -0.15) {
+            reset()
+            FeedbackGenerator.feedback()
+        }
     }
     
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
