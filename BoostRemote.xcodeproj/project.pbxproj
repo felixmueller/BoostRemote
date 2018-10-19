@@ -471,7 +471,7 @@
 				TargetAttributes = {
 					CB3BE8AC1F2FF2F4000561F7 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UV6TAX3ANB;
+						DevelopmentTeam = 7LJ2S5694C;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -922,10 +922,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UV6TAX3ANB;
+				DEVELOPMENT_TEAM = 7LJ2S5694C;
 				INFOPLIST_FILE = BoostRemote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bricklife.ios.boost-remote";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.felixmueller.boost-remote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -936,10 +936,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UV6TAX3ANB;
+				DEVELOPMENT_TEAM = 7LJ2S5694C;
 				INFOPLIST_FILE = BoostRemote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bricklife.ios.boost-remote";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.felixmueller.boost-remote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
